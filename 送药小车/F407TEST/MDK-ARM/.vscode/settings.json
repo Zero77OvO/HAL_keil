@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "interrupt.h": "c",
+        "tim.h": "c",
+        "main.h": "c",
+        "lcd_init.h": "c",
+        "pid.h": "c",
+        "motor.h": "c"
+    }
+}

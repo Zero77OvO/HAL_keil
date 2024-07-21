@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "vofa.h": "c",
+        "task.h": "c",
+        "main.h": "c"
+    }
+}

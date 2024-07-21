@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: asd William, asd, LIC=NHYFW-QM6H1-SF7I0-BGNBN-L82H6-N1FQ7
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  E:\Install_Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+C:\Users\William\Documents\CubeMX_Learning\LED_Bling\MDK-ARM\LED_Bling.uvprojx
+Project File Date:  06/29/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'E:\Install_Keil5\ARM\ARMCC\Bin'
+Build target 'LED_Bling'
+compiling pid.c...
+..\Src\pid.h(22): warning:  #1295-D: Deprecated declaration pid_speed_init - give arg types
+  void pid_speed_init();
+..\Src\pid.h(24): warning:  #1295-D: Deprecated declaration pid_speed_cal - give arg types
+  void pid_speed_cal();
+..\Src\pid.h(25): warning:  #1295-D: Deprecated declaration pid_angle_cal - give arg types
+  void pid_angle_cal();
+..\Src\pid.h(27): warning:  #1295-D: Deprecated declaration pid_angle_init - give arg types
+  void pid_angle_init();
+..\Src\pid.c: 4 warnings, 0 errors
+compiling main.c...
+../Src/pid.h(22): warning:  #1295-D: Deprecated declaration pid_speed_init - give arg types
+  void pid_speed_init();
+../Src/pid.h(24): warning:  #1295-D: Deprecated declaration pid_speed_cal - give arg types
+  void pid_speed_cal();
+../Src/pid.h(25): warning:  #1295-D: Deprecated declaration pid_angle_cal - give arg types
+  void pid_angle_cal();
+../Src/pid.h(27): warning:  #1295-D: Deprecated declaration pid_angle_init - give arg types
+  void pid_angle_init();
+../Src/main.c(179): warning:  #177-D: variable "adc" was declared but never referenced
+  	uint8_t adc = 0;
+../Src/main.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=14472 RO-data=360 RW-data=100 ZI-data=1420  
+FromELF: creating hex file...
+"LED_Bling\LED_Bling.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\William\Documents\CubeMX_Learning\LED_Bling\MDK-ARM\RTE
+  E:\Install_Keil5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  E:\Install_Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

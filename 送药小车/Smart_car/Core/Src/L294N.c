@@ -1,0 +1,44 @@
+#include "L294N.h"  
+
+ 
+void Reset()
+{
+__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1,0);
+__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2,0);
+__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_3,0);
+__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_4,0);
+
+}
+
+void Forward(){
+	
+	
+__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1,7500);
+__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_3,8000);
+
+
+}
+
+
+void Back(){
+	
+__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_2,7500);
+__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_4,8000);
+
+
+}
+
+void Left(){
+	
+__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1,0);
+__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_3,8500);
+
+}
+
+void Right(){
+	
+ 
+__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1,8800);
+__HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_3,0);
+}
+

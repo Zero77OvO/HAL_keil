@@ -1,0 +1,11 @@
+*** Using Compiler 'V5.06 update 7 for Certification (build 960)', folder: 'D:\Software\Keil\ARM\ARMCC\Bin'
+Build target '82mixue'
+linking...
+82mixue\82mixue.axf: Error: L6218E: Undefined symbol lrControl (referred from vofa.o).
+82mixue\82mixue.axf: Error: L6218E: Undefined symbol upControl (referred from vofa.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 2 error messages.
+"82mixue\82mixue.axf" - 2 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01
